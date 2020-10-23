@@ -1,0 +1,24 @@
+.chevron {
+  filter: invert(100%);
+  vertical-align: middle;
+}
+.codeRepositories {
+  text-decoration: none;
+  color: white;
+}
+
+.codeRepositoriesLinks {
+  font-size: 20px;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.codeRepositoriesLinks a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.codeRepositories-header {
+  cursor: pointer;
+}
