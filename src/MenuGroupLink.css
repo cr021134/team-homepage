@@ -2,23 +2,23 @@
   filter: invert(100%);
   vertical-align: middle;
 }
-.codeRepositories {
+.menuGroupLink {
   text-decoration: none;
   color: white;
 }
 
-.codeRepositoriesLinks {
+.menuGroupLink-links {
   font-size: 20px;
   text-align: left;
   padding-left: 30px;
 }
 
-.codeRepositoriesLinks a {
+.menuGroupLink a {
   text-decoration: none;
   color: white;
   display: block;
 }
 
-.codeRepositories-header {
+.menuGroupLink-header {
   cursor: pointer;
 }

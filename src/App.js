@@ -1,9 +1,11 @@
 import React from 'react';
 import cerner from './Cerner_Corporation_logo.png';
-import CodeRepositories from './CodeRepositories.js';
+import MenuGroupLink from './MenuGroupLink.js';
+import MenuItems from './MenuItems.js';
 import './App.css';
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
@@ -11,7 +13,7 @@ function App() {
         <p>
           Welcome to the Bob Ross Ultras Homepage
         </p>
-        <CodeRepositories />
+        <MenuGroupLink header="Code Repositories" links={MenuItems.codeRepositories} />
       </header>
     </div>
   );
