@@ -1,9 +1,13 @@
 import React from 'react';
 import cerner from './Cerner_Corporation_logo.png';
-import MenuGroupLink from './MenuGroupLink.js';
+import ProjectsList from './ProjectsList.js';
 import MenuItems from './MenuItems.js';
 import './App.css';
-
+/*<TimeCodes />
+<FoodFridayBot />
+<TeamInfo />
+<How-Tos />
+<ImportLinks />*/
 function App() {
 
   return (
@@ -11,9 +15,10 @@ function App() {
       <header className="App-header">
         <img src={cerner} className="App-logo" alt="logo" />
         <p>
-          Welcome to the Bob Ross Ultras Homepage
+          Welcome to the Worklist Dev - Bob Ross Ultras Homepage
         </p>
-        <MenuGroupLink header="Code Repositories" links={MenuItems.codeRepositories} />
+        <ProjectsList data={MenuItems.Projects} />
+
       </header>
     </div>
   );
